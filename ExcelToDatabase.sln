@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelToDatabase", "ExcelToDatabase\ExcelToDatabase.csproj", "{DF71AFB9-C29C-4353-B0D9-0DE54DA58861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF71AFB9-C29C-4353-B0D9-0DE54DA58861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF71AFB9-C29C-4353-B0D9-0DE54DA58861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF71AFB9-C29C-4353-B0D9-0DE54DA58861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF71AFB9-C29C-4353-B0D9-0DE54DA58861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {114C845D-B6A2-4200-8751-2E25B3810957}
+	EndGlobalSection
+EndGlobal

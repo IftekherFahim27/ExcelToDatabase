@@ -1,0 +1,33 @@
+﻿@if (ViewBag.Message == "Success")
+{
+    <div class="alert alert-success" role="alert">
+        All record inserted Successfully into Item Table
+    </div>
+}
+else if (ViewBag.Message == "Empty")
+{
+    <div class="alert alert-warning" role="alert">
+        File Empty !!! Records not inserted into Item Table
+    </div>
+}
+else if (ViewBag.Message == "Duplicate")
+{
+    <div class="alert alert-warning" role="alert">
+        Duplicate Category !!!!Records not inserted into Item Table
+    </div>
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="row">
+        <label>Select Excel File</label>
+        <input type="file" name="file" />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-3">
+            <input type="submit" asp-controller="Home" asp-action="BulkItem" class="btn btn-dark" value="Upload Excel File" />
+        </div>
+    </div>
+
+</form>
+
